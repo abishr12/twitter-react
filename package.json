@@ -1,0 +1,29 @@
+{
+  "name": "twitter-react",
+  "version": "1.0.0",
+  "description": "web app displaying twitter data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abishr12/twitter-react.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "react"
+  ],
+  "author": "adham bishr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abishr12/twitter-react/issues"
+  },
+  "homepage": "https://github.com/abishr12/twitter-react#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "require": "^2.4.20",
+    "twitter": "^1.7.1"
+  }
+}
