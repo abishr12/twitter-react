@@ -14,8 +14,12 @@ router.get("/api/:twitterName", function(req, res) {
 
   twitterSearch(twitterName, function(result) {
     res.json(result);
+    //return result;
   });
 });
 
 // Export routes for server.js to use.
-module.exports = router;
+module.exports = {
+  routes: router
+  //tweets: results
+};

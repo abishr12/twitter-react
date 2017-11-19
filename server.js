@@ -20,9 +20,9 @@ app.use(bodyParser.json());
 // app.set("view engine", "handlebars");
 
 // Import routes and give the server access to them.
-var routes = require("./routes/twitter-routes.js");
+var routing = require("./routes/twitter-routes.js");
 
-app.use("/", routes);
+app.use("/", routing.routes);
 
 app.listen(port, function() {
   console.log("listening on port " + port);
