@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 // app.set("view engine", "handlebars");
 
 // Import routes and give the server access to them.
-var routes = require("./controllers/twitter-controllers.js");
+var routes = require("./routes/twitter-routes.js");
 
 app.use("/", routes);
 
